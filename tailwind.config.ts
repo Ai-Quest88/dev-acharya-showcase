@@ -162,6 +162,44 @@ export default {
 					'75%': {
 						transform: 'translateY(-5px) rotate(5deg)'
 					}
+				},
+				'spin-slow': {
+					'0%': {
+						transform: 'rotate(0deg)'
+					},
+					'100%': {
+						transform: 'rotate(360deg)'
+					}
+				},
+				'reverse-spin-slow': {
+					'0%': {
+						transform: 'rotate(0deg)'
+					},
+					'100%': {
+						transform: 'rotate(-360deg)'
+					}
+				},
+				'float-particle': {
+					'0%, 100%': {
+						transform: 'translate(0px, 0px)'
+					},
+					'25%': {
+						transform: 'translate(5px, -5px)'
+					},
+					'50%': {
+						transform: 'translate(0px, -10px)'
+					},
+					'75%': {
+						transform: 'translate(-5px, -5px)'
+					}
+				},
+				orbit: {
+					'0%': {
+						transform: 'rotate(0deg) translateX(20px) rotate(0deg)'
+					},
+					'100%': {
+						transform: 'rotate(360deg) translateX(20px) rotate(-360deg)'
+					}
 				}
 			},
 			animation: {
@@ -173,7 +211,14 @@ export default {
 				'fade-in-left': 'fade-in-left 0.7s ease-out forwards',
 				'float': 'float 6s ease-in-out infinite',
 				'pulse-slow': 'pulse 3s ease-in-out infinite',
-				'robot-hover': 'robot-hover 3s ease-in-out infinite'
+				'robot-hover': 'robot-hover 3s ease-in-out infinite',
+				'spin-slow': 'spin-slow 15s linear infinite',
+				'reverse-spin-slow': 'reverse-spin-slow 12s linear infinite',
+				'float-particle': 'float-particle 8s ease-in-out infinite',
+				'float-particle-delay': 'float-particle 8s ease-in-out 1s infinite',
+				'float-particle-delay-2': 'float-particle 8s ease-in-out 2s infinite',
+				'orbit': 'orbit 10s linear infinite',
+				'orbit-delay': 'orbit 12s linear 1s infinite'
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
