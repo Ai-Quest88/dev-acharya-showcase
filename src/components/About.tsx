@@ -1,5 +1,6 @@
 
 import { ArrowRight } from "lucide-react";
+import RobotAnimation from "./RobotAnimation";
 
 const About = () => {
   return (
@@ -49,13 +50,10 @@ const About = () => {
           
           <div className="relative group reveal">
             <div className="absolute -inset-2 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto md:mx-0">
-              <div className="absolute inset-0 bg-portfolio-teal/20 group-hover:bg-transparent transition-colors duration-300 z-10"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
-                alt="Devesh Acharya" 
-                className="rounded-lg w-full grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
+            <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto md:mx-0 bg-portfolio-lightNavy/30 p-4">
+              <div className="aspect-square">
+                <RobotAnimation />
+              </div>
             </div>
           </div>
         </div>
