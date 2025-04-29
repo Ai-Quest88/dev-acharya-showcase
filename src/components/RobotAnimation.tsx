@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Robot } from 'lucide-react';
+import { Bot } from 'lucide-react';
 
 const RobotAnimation = () => {
   const robotRef = useRef<HTMLDivElement>(null);
@@ -66,7 +66,7 @@ const RobotAnimation = () => {
       style={{ transform: 'translate(-50px, -50px)' }}
     >
       <div className="relative">
-        <Robot size={28} className="text-portfolio-teal animate-float" />
+        <Bot size={28} className="text-portfolio-teal animate-float" />
         <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-8 h-2 bg-portfolio-teal/20 rounded-full filter blur-sm"></div>
       </div>
     </div>
