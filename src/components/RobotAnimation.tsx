@@ -3,7 +3,7 @@ import { Heart, Star, Circle, Moon, Rocket } from 'lucide-react';
 
 const RobotAnimation = () => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative bg-transparent">
       {/* Outer orbit paths */}
       <div className="absolute inset-0 border-2 border-dashed border-portfolio-teal/30 rounded-full animate-spin-slow"></div>
       <div className="absolute inset-4 border border-dashed border-portfolio-lightSlate/30 rounded-full animate-reverse-spin-slow"></div>

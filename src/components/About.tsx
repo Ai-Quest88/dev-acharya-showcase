@@ -4,7 +4,7 @@ import RobotAnimation from "./RobotAnimation";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 relative">
+    <section id="about" className="py-24 relative bg-portfolio-navy">
       <div className="absolute left-0 top-1/4 w-96 h-96 bg-portfolio-teal/10 rounded-full filter blur-[100px] pointer-events-none"></div>
       
       <div className="container mx-auto px-4">
@@ -98,8 +98,8 @@ const About = () => {
           
           <div className="relative group reveal">
             <div className="absolute -inset-2 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto md:mx-0 bg-portfolio-lightNavy/30 p-4">
-              <div className="aspect-square">
+            <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto md:mx-0 bg-portfolio-navy border border-portfolio-lightNavy p-6">
+              <div className="aspect-square bg-portfolio-navy">
                 <RobotAnimation />
               </div>
             </div>
