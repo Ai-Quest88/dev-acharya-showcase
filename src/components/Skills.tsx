@@ -1,0 +1,91 @@
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Code, Server, Database, Cloud, Layout, Terminal } from "lucide-react";
+
+interface SkillCategoryProps {
+  title: string;
+  skills: string[];
+  icon: React.ReactNode;
+}
+
+const SkillCategory = ({ title, skills, icon }: SkillCategoryProps) => {
+  return (
+    <Card className="bg-portfolio-lightNavy border-portfolio-lightestNavy overflow-hidden hover:border-portfolio-teal/50 transition-colors duration-300">
+      <CardContent className="p-6">
+        <div className="flex items-center mb-4">
+          <div className="mr-3 text-portfolio-teal">{icon}</div>
+          <h3 className="text-lg font-semibold text-portfolio-lightestSlate">{title}</h3>
+        </div>
+        <ul className="flex flex-wrap gap-2">
+          {skills.map((skill) => (
+            <li
+              key={skill}
+              className="bg-portfolio-navy px-3 py-1 rounded-full text-sm font-mono text-portfolio-lightSlate"
+            >
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </CardContent>
+    </Card>
+  );
+};
+
+const Skills = () => {
+  const skillCategories = [
+    {
+      title: "Programming Languages",
+      icon: <Code size={24} />,
+      skills: ["JavaScript", "TypeScript", "Python", "C#", "Java", "HTML/CSS"]
+    },
+    {
+      title: "Frontend Development",
+      icon: <Layout size={24} />,
+      skills: ["React", "Angular", "Vue", "Redux", "Next.js", "Tailwind CSS", "Material UI"]
+    },
+    {
+      title: "Backend Development",
+      icon: <Server size={24} />,
+      skills: ["Node.js", "Express", "Django", "Flask", "ASP.NET", "Spring Boot"]
+    },
+    {
+      title: "Database",
+      icon: <Database size={24} />,
+      skills: ["MongoDB", "PostgreSQL", "MySQL", "SQL Server", "DynamoDB", "Redis"]
+    },
+    {
+      title: "Cloud & DevOps",
+      icon: <Cloud size={24} />,
+      skills: ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Terraform", "CI/CD"]
+    },
+    {
+      title: "AI & Machine Learning",
+      icon: <Terminal size={24} />,
+      skills: ["TensorFlow", "PyTorch", "Scikit-Learn", "LangChain", "OpenAI API", "Hugging Face"]
+    }
+  ];
+
+  return (
+    <section id="skills" className="py-24 bg-portfolio-navy">
+      <div className="container mx-auto px-4">
+        <h2 className="section-heading mb-12">
+          <span className="text-portfolio-teal font-mono text-xl mr-2">03.</span>
+          Skills & Technologies
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {skillCategories.map((category) => (
+            <SkillCategory
+              key={category.title}
+              title={category.title}
+              skills={category.skills}
+              icon={category.icon}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
