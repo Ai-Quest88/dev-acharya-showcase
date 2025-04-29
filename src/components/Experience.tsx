@@ -19,35 +19,35 @@ const Experience = () => {
     {
       company: "Microsoft",
       title: "Senior Software Engineer",
-      period: "2018 - Present",
+      period: "2016 - Present",
       description: [
-        "Leading development team focused on AI-powered enterprise solutions",
-        "Architecting and implementing cloud-based software applications with a focus on performance and scalability",
-        "Spearheading the integration of AI and ML technologies into existing software products",
+        "Leading development teams focused on AI-powered enterprise solutions",
+        "Architecting and implementing cloud-based software applications with Azure",
+        "Spearheading the integration of AI and ML technologies into existing products",
         "Collaborating with cross-functional teams to define and implement product strategy",
         "Mentoring junior developers and conducting code reviews"
       ],
       technologies: ["C#", "Azure", "Microservices", "AI/ML", "React", "TypeScript"]
     },
     {
-      company: "TCS",
-      title: "Technology Lead",
-      period: "2013 - 2018",
+      company: "Mindtree",
+      title: "Technical Lead",
+      period: "2011 - 2016",
       description: [
         "Led multiple development teams across different projects",
-        "Designed and implemented enterprise-level applications for banking and finance clients",
+        "Designed and implemented enterprise-level applications for healthcare clients",
         "Established coding standards, best practices, and architectural guidelines",
         "Coordinated with onshore and offshore teams to ensure timely delivery of projects",
         "Conducted technical interviews and participated in talent acquisition"
       ],
-      technologies: ["Java", "Spring", "Hibernate", "Oracle", "Angular", "AWS"]
+      technologies: ["Java", "Spring", "Hibernate", "Oracle", "Angular", ".NET"]
     },
     {
-      company: "Infosys",
-      title: "Software Developer",
-      period: "2008 - 2013",
+      company: "Persistent Systems",
+      title: "Software Engineer",
+      period: "2006 - 2011",
       description: [
-        "Developed and maintained web applications for retail and e-commerce clients",
+        "Developed and maintained enterprise applications for global clients",
         "Participated in full software development lifecycle from requirement analysis to deployment",
         "Implemented responsive design principles to enhance user experience",
         "Collaborated with QA teams to identify and fix software defects",

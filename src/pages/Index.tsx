@@ -30,6 +30,11 @@ const Index = () => {
     return () => observer.disconnect();
   }, []);
 
+  // Update the document title
+  useEffect(() => {
+    document.title = "Devesh Acharya | Senior Software Engineer";
+  }, []);
+
   return (
     <div className="bg-portfolio-navy text-portfolio-lightSlate overflow-hidden">
       <CustomCursor />

@@ -16,19 +16,20 @@ const About = () => {
           <div className="md:col-span-2 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, a seasoned software development professional with over 15 years of experience in the tech industry. 
-                My journey in technology began at Pune University where I earned my Master's degree in Computer Applications.
+                Hello! I'm Devesh, a Senior Software Engineer at Microsoft with over 14 years of experience in the technology industry. 
+                I hold a Master's degree in Computer Applications from Pune University and have been passionate about building innovative software solutions.
               </p>
               
               <p className="reveal">
-                Throughout my career, I've had the privilege of working with diverse technologies and platforms, 
-                from building enterprise-level solutions at Microsoft to developing innovative AI applications.
-                My expertise spans across cloud architecture, AI integration, and full-stack development.
+                Throughout my career, I've specialized in developing enterprise applications with a focus on cloud solutions, 
+                AI integration, and full-stack development. My experience spans across multiple domains including healthcare, 
+                finance, and manufacturing sectors.
               </p>
 
               <p className="reveal">
-                Currently, I'm focused on developing AI-powered solutions that solve real-world problems. 
-                I'm passionate about creating software that is not only functional but also intuitive and user-friendly.
+                At Microsoft, I lead software development teams focusing on AI-powered enterprise solutions, architecting 
+                cloud-based applications with emphasis on scalability and performance. I'm also involved in mentoring junior 
+                developers and collaborating with cross-functional teams.
               </p>
 
               <p className="reveal mt-8 font-medium text-portfolio-lightestSlate">
@@ -36,7 +37,7 @@ const About = () => {
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-6 reveal">
-                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'Python', 'Azure', 'AWS', 'Machine Learning', 'Docker', 'Kubernetes'].map(tech => (
+                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'C#', 'Azure', 'AWS', 'AI/ML', 'Docker', 'Kubernetes'].map(tech => (
                   <div key={tech} className="flex items-center group">
                     <ArrowRight className="h-4 w-4 text-portfolio-teal mr-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                     <span className="font-mono text-sm group-hover:text-portfolio-teal transition-colors duration-300">{tech}</span>

@@ -36,32 +36,32 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: <Code size={24} />,
-      skills: ["JavaScript", "TypeScript", "Python", "C#", "Java", "HTML/CSS"]
+      skills: ["C#", "Java", "JavaScript", "TypeScript", "Python", "HTML/CSS"]
     },
     {
       title: "Frontend Development",
       icon: <Layout size={24} />,
-      skills: ["React", "Angular", "Vue", "Redux", "Next.js", "Tailwind CSS", "Material UI"]
+      skills: ["React", "Angular", "Redux", "Material UI", "Bootstrap", "Tailwind CSS"]
     },
     {
       title: "Backend Development",
       icon: <Server size={24} />,
-      skills: ["Node.js", "Express", "Django", "Flask", "ASP.NET", "Spring Boot"]
+      skills: [".NET Core", "ASP.NET", "Spring Boot", "Node.js", "Express", "RESTful APIs"]
     },
     {
       title: "Database",
       icon: <Database size={24} />,
-      skills: ["MongoDB", "PostgreSQL", "MySQL", "SQL Server", "DynamoDB", "Redis"]
+      skills: ["SQL Server", "Oracle", "PostgreSQL", "MongoDB", "Redis", "Entity Framework"]
     },
     {
       title: "Cloud & DevOps",
       icon: <Cloud size={24} />,
-      skills: ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Terraform", "CI/CD"]
+      skills: ["Azure", "Azure DevOps", "AWS", "Docker", "Kubernetes", "CI/CD"]
     },
     {
       title: "AI & Machine Learning",
       icon: <Terminal size={24} />,
-      skills: ["TensorFlow", "PyTorch", "Scikit-Learn", "LangChain", "OpenAI API", "Hugging Face"]
+      skills: ["Azure AI", "ML.NET", "TensorFlow", "Computer Vision", "NLP", "OpenAI API"]
     }
   ];
 
