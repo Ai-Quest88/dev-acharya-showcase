@@ -1,5 +1,5 @@
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Briefcase, Building, Calendar } from "lucide-react";
 import RobotAnimation from "./RobotAnimation";
 
 const About = () => {
@@ -21,17 +21,65 @@ const About = () => {
                 I hold a Master's degree in Computer Applications from Pune University and have been passionate about building innovative software solutions.
               </p>
               
-              <p className="reveal">
-                Throughout my career, I've specialized in developing enterprise applications with a focus on cloud solutions, 
-                AI integration, and full-stack development. My experience spans across multiple domains including healthcare, 
-                finance, and manufacturing sectors.
-              </p>
-
-              <p className="reveal">
-                At Microsoft, I lead software development teams focusing on AI-powered enterprise solutions, architecting 
-                cloud-based applications with emphasis on scalability and performance. I'm also involved in mentoring junior 
-                developers and collaborating with cross-functional teams.
-              </p>
+              <div className="space-y-4 mt-8 reveal">
+                <h3 className="text-xl font-medium text-portfolio-lightestSlate flex items-center gap-2">
+                  <Briefcase className="text-portfolio-teal h-5 w-5" />
+                  Professional Experience
+                </h3>
+                
+                <div className="pl-7 space-y-6">
+                  <div className="space-y-2">
+                    <div className="flex items-start">
+                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-medium text-portfolio-lightestSlate">Microsoft</h4>
+                        <p className="text-sm flex items-center gap-1">
+                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
+                          <span>2019 - Present</span>
+                        </p>
+                        <p className="mt-1">
+                          Lead software development teams focusing on AI-powered enterprise solutions, 
+                          architecting cloud-based applications with emphasis on scalability and performance.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <div className="flex items-start">
+                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-medium text-portfolio-lightestSlate">Oracle</h4>
+                        <p className="text-sm flex items-center gap-1">
+                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
+                          <span>2014 - 2019</span>
+                        </p>
+                        <p className="mt-1">
+                          Developed enterprise-grade database solutions and cloud integration services, 
+                          working with cross-functional teams to deliver robust applications.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <div className="flex items-start">
+                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
+                      <div>
+                        <h4 className="font-medium text-portfolio-lightestSlate">IBM</h4>
+                        <p className="text-sm flex items-center gap-1">
+                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
+                          <span>2010 - 2014</span>
+                        </p>
+                        <p className="mt-1">
+                          Started career as a software developer, focused on system integration and 
+                          backend development for financial services clients.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <p className="reveal mt-8 font-medium text-portfolio-lightestSlate">
                 Here are a few technologies I've been working with recently:
