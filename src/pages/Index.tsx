@@ -9,6 +9,7 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
+import RobotAnimation from "@/components/RobotAnimation";
 
 const Index = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const Index = () => {
   return (
     <div className="bg-portfolio-navy text-portfolio-lightSlate overflow-hidden">
       <CustomCursor />
+      <RobotAnimation />
       <Header />
       <main>
         <Hero />

@@ -151,6 +151,17 @@ export default {
 					'50%': {
 						opacity: '0.5'
 					}
+				},
+				'robot-hover': {
+					'0%, 100%': {
+						transform: 'translateY(0) rotate(0deg)'
+					},
+					'25%': {
+						transform: 'translateY(-5px) rotate(-5deg)'
+					},
+					'75%': {
+						transform: 'translateY(-5px) rotate(5deg)'
+					}
 				}
 			},
 			animation: {
@@ -161,7 +172,8 @@ export default {
 				'fade-in-right': 'fade-in-right 0.7s ease-out forwards',
 				'fade-in-left': 'fade-in-left 0.7s ease-out forwards',
 				'float': 'float 6s ease-in-out infinite',
-				'pulse-slow': 'pulse 3s ease-in-out infinite'
+				'pulse-slow': 'pulse 3s ease-in-out infinite',
+				'robot-hover': 'robot-hover 3s ease-in-out infinite'
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
