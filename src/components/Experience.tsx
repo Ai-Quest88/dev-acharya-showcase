@@ -17,43 +17,56 @@ const Experience = () => {
   
   const jobs: Job[] = [
     {
-      company: "Microsoft",
-      title: "Senior Software Engineer",
-      period: "2016 - Present",
+      company: "NVIDIA",
+      title: "Principal Member of Technical Staff",
+      period: "2020 - Present",
       description: [
-        "Leading development teams focused on AI-powered enterprise solutions",
-        "Architecting and implementing cloud-based software applications with Azure",
-        "Spearheading the integration of AI and ML technologies into existing products",
-        "Collaborating with cross-functional teams to define and implement product strategy",
-        "Mentoring junior developers and conducting code reviews"
+        "Leading the development of AI infrastructure tools and platforms",
+        "Architecting and implementing scalable machine learning systems",
+        "Driving innovation in GPU-accelerated computing solutions",
+        "Collaborating with research teams to develop cutting-edge AI applications",
+        "Mentoring team members and providing technical leadership"
       ],
-      technologies: ["C#", "Azure", "Microservices", "AI/ML", "React", "TypeScript"]
+      technologies: ["CUDA", "Python", "TensorFlow", "PyTorch", "C++", "Kubernetes"]
     },
     {
-      company: "Mindtree",
-      title: "Technical Lead",
-      period: "2011 - 2016",
+      company: "VMware",
+      title: "Sr. Member of Technical Staff",
+      period: "2015 - 2020",
       description: [
-        "Led multiple development teams across different projects",
-        "Designed and implemented enterprise-level applications for healthcare clients",
-        "Established coding standards, best practices, and architectural guidelines",
-        "Coordinated with onshore and offshore teams to ensure timely delivery of projects",
-        "Conducted technical interviews and participated in talent acquisition"
+        "Led development of virtualization and cloud infrastructure components",
+        "Designed and implemented enterprise-level solutions for hybrid cloud environments",
+        "Optimized system performance and resource utilization for virtualized workloads",
+        "Developed automation tools for cloud deployment and management",
+        "Collaborated with product teams to define technical roadmaps"
       ],
-      technologies: ["Java", "Spring", "Hibernate", "Oracle", "Angular", ".NET"]
+      technologies: ["vSphere", "Java", "Spring", "JavaScript", "AWS", "Docker"]
     },
     {
-      company: "Persistent Systems",
+      company: "Oracle",
+      title: "Principal Software Engineer",
+      period: "2010 - 2015",
+      description: [
+        "Led development teams for Oracle Fusion Middleware products",
+        "Designed and implemented enterprise database solutions",
+        "Architected high-availability systems for mission-critical applications",
+        "Optimized query performance and database operations",
+        "Mentored junior engineers and conducted code reviews"
+      ],
+      technologies: ["Oracle DB", "PL/SQL", "Java", "WebLogic", "SOA", "JEE"]
+    },
+    {
+      company: "NetApp",
       title: "Software Engineer",
-      period: "2006 - 2011",
+      period: "2006 - 2010",
       description: [
-        "Developed and maintained enterprise applications for global clients",
-        "Participated in full software development lifecycle from requirement analysis to deployment",
-        "Implemented responsive design principles to enhance user experience",
-        "Collaborated with QA teams to identify and fix software defects",
-        "Documented technical specifications and prepared user manuals"
+        "Developed storage management solutions for enterprise environments",
+        "Implemented fault-tolerant systems for data protection",
+        "Designed data backup and recovery mechanisms",
+        "Optimized storage performance for large-scale deployments",
+        "Collaborated on cross-functional projects with hardware teams"
       ],
-      technologies: ["Java", ".NET", "SQL Server", "JavaScript", "jQuery", "CSS"]
+      technologies: ["C", "Unix", "Storage Systems", "Networking", "File Systems", "Clustering"]
     }
   ];
 
