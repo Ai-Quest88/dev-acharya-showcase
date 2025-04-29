@@ -101,6 +101,7 @@
   body {
     @apply bg-portfolio-navy text-portfolio-lightSlate;
     scroll-behavior: smooth;
+    cursor: none;
   }
 
   html {
@@ -116,12 +117,26 @@
   }
   
   .section-heading {
-    @apply text-2xl md:text-3xl font-bold mb-8 text-portfolio-lightestSlate relative;
+    @apply text-2xl md:text-3xl font-bold mb-8 text-portfolio-lightestSlate relative inline-block;
   }
   
   .section-heading::before {
     content: "";
     @apply absolute left-0 bottom-0 w-16 h-0.5 bg-portfolio-teal -mb-2;
+  }
+
+  /* Style for links to hide default cursor */
+  a, button {
+    @apply cursor-none;
+  }
+  
+  /* Add reveal animation classes */
+  .reveal {
+    @apply opacity-0;
+  }
+  
+  .reveal.animate-fade-in {
+    @apply opacity-100;
   }
 }
 
@@ -133,3 +148,9 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Glass card effect */
+.glass-card {
+  @apply bg-portfolio-lightNavy/30 backdrop-blur-lg border border-white/10 shadow-lg;
+}
+
