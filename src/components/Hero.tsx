@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -49,28 +48,6 @@ const Hero = () => {
             I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
             across financial services and enterprise applications.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Button 
-              className="bg-transparent hover:bg-portfolio-teal/10 text-portfolio-teal border border-portfolio-teal group rounded-full px-8" 
-              size="lg"
-              asChild
-            >
-              <a href="#projects" className="flex items-center">
-                Check out my work
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </a>
-            </Button>
-            <Button 
-              className="bg-transparent hover:bg-portfolio-teal/10 text-portfolio-teal border border-portfolio-teal rounded-full px-8" 
-              size="lg"
-              variant="outline"
-              asChild
-            >
-              <a href="#contact">
-                Get in touch
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
       
