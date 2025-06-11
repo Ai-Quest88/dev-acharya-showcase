@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Download, Mail, Phone, MapPin, Globe, Calendar, Building } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
@@ -254,9 +253,9 @@ const Resume = () => {
         <section className="mb-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Education</h3>
           <div>
-            <h4 className="text-lg font-semibold text-gray-900">Bachelor of Engineering</h4>
-            <p className="text-gray-700">Computer Science & Engineering</p>
-            <p className="text-sm text-gray-600">Graduated with Distinction</p>
+            <h4 className="text-lg font-semibold text-gray-900">Bachelor of Engineering (B.E.), Computer Engineering</h4>
+            <p className="text-gray-700">University of Rajasthan</p>
+            <p className="text-sm text-gray-600">2004 - 2008</p>
           </div>
         </section>
 
