@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Server, Database, Cloud, TestTube, Bot } from "lucide-react";
 
@@ -35,7 +36,7 @@ const Skills = () => {
     {
       title: "Test Automation",
       icon: <TestTube size={24} />,
-      skills: ["Selenium", "Cypress", "Playwright", "TestNG", "Jest", "API Testing", "Performance Testing"]
+      skills: ["Selenium", "Cypress", "Playwright", "TestNG", "Jest", "BDD", "API Testing", "Performance Testing"]
     },
     {
       title: "AI & Innovation",
