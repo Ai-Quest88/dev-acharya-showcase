@@ -64,9 +64,10 @@ const Resume = () => {
         <section className="mb-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Professional Summary</h3>
           <p className="text-gray-700 leading-relaxed">
-            Senior Quality Engineer with over 17 years of experience in the technology industry, specializing in quality assurance, 
-            test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications. 
-            Currently exploring the exciting intersection of AI and quality engineering to revolutionize testing and software reliability approaches.
+            Senior Quality Engineer at Macquarie Group with over 17 years of experience in the technology industry. 
+            I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
+            across financial services and enterprise applications. Currently exploring the exciting intersection of AI and quality engineering 
+            to revolutionize how we approach testing and software reliability.
           </p>
         </section>
 
@@ -75,33 +76,39 @@ const Resume = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Core Competencies</h3>
           <div className="grid grid-cols-3 gap-4">
             <div>
-              <h4 className="font-semibold text-gray-800 mb-2">Testing Frameworks</h4>
+              <h4 className="font-semibold text-gray-800 mb-2">Test Automation</h4>
               <ul className="text-sm text-gray-600 space-y-1">
-                <li>• Selenium</li>
-                <li>• Cypress</li>
                 <li>• Playwright</li>
-                <li>• TestNG</li>
+                <li>• Cypress</li>
+                <li>• Selenium</li>
+                <li>• Serenity</li>
                 <li>• Jest</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-2">Programming Languages</h4>
-              <ul className="text-sm text-gray-600 space-y-1">
-                <li>• JavaScript</li>
-                <li>• Python</li>
-                <li>• Java</li>
-                <li>• C#</li>
-                <li>• TypeScript</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-800 mb-2">Tools & Technologies</h4>
-              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• BDD</li>
                 <li>• API Testing</li>
                 <li>• REST Assured</li>
-                <li>• CI/CD</li>
-                <li>• Docker</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-800 mb-2">Programming</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• C#</li>
+                <li>• Java</li>
+                <li>• JavaScript</li>
+                <li>• TypeScript</li>
+                <li>• Python</li>
+                <li>• HTML/CSS</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="font-semibold text-gray-800 mb-2">Technologies</h4>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• .NET Core</li>
+                <li>• Spring Boot</li>
+                <li>• Node.js</li>
+                <li>• Azure</li>
                 <li>• AWS</li>
+                <li>• Docker</li>
+                <li>• CI/CD</li>
               </ul>
             </div>
           </div>
@@ -121,7 +128,7 @@ const Resume = () => {
                 <div className="text-right text-sm text-gray-600">
                   <div className="flex items-center gap-1">
                     <Calendar className="h-3 w-3" />
-                    <span>2023 - Present</span>
+                    <span>Jan 2023 - Present</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Building className="h-3 w-3" />
@@ -132,48 +139,92 @@ const Resume = () => {
               <ul className="text-gray-700 space-y-1 ml-4">
                 <li>• Leading quality assurance initiatives across fintech projects</li>
                 <li>• Implementing automated testing frameworks for critical financial systems</li>
-                <li>• Mentoring engineering teams in quality best practices</li>
-                <li>• Developing AI-powered testing solutions to enhance quality processes</li>
+                <li>• Collaborating with cross-functional teams to ensure product quality</li>
+                <li>• Developing quality metrics and reporting mechanisms</li>
+                <li>• Mentoring junior engineers in quality best practices</li>
               </ul>
             </div>
 
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">Senior Test Engineer</h4>
+                  <h4 className="text-lg font-semibold text-gray-900">Automation Test Lead</h4>
+                  <p className="text-gray-700 font-medium">Commonwealth Bank</p>
+                </div>
+                <div className="text-right text-sm text-gray-600">
+                  <div className="flex items-center gap-1">
+                    <Calendar className="h-3 w-3" />
+                    <span>Mar 2022 - Jan 2023</span>
+                  </div>
+                </div>
+              </div>
+              <ul className="text-gray-700 space-y-1 ml-4">
+                <li>• Led test automation strategy for banking applications</li>
+                <li>• Designed and implemented automated testing frameworks</li>
+                <li>• Managed a team of test automation engineers</li>
+                <li>• Reduced testing cycle time by 40% through automation improvements</li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="flex justify-between items-start mb-2">
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">Senior Quality Assurance Engineer</h4>
                   <p className="text-gray-700 font-medium">Fluent Commerce</p>
                 </div>
                 <div className="text-right text-sm text-gray-600">
                   <div className="flex items-center gap-1">
                     <Calendar className="h-3 w-3" />
-                    <span>2021 - 2023</span>
+                    <span>Oct 2019 - Feb 2022</span>
                   </div>
                 </div>
               </div>
               <ul className="text-gray-700 space-y-1 ml-4">
-                <li>• Designed and implemented comprehensive test automation strategies</li>
-                <li>• Led quality assurance for e-commerce platform solutions</li>
-                <li>• Established CI/CD pipelines for automated testing</li>
+                <li>• Developed and maintained test automation frameworks for e-commerce platforms</li>
+                <li>• Implemented BDD approaches using Cucumber and Gherkin</li>
+                <li>• Conducted performance testing on high-traffic commerce systems</li>
+                <li>• Improved test coverage by 60% through systematic test planning</li>
               </ul>
             </div>
 
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">Quality Assurance Lead</h4>
-                  <p className="text-gray-700 font-medium">Commonwealth Bank of Australia</p>
+                  <h4 className="text-lg font-semibold text-gray-900">Test Automation Lead</h4>
+                  <p className="text-gray-700 font-medium">Macquarie Group</p>
                 </div>
                 <div className="text-right text-sm text-gray-600">
                   <div className="flex items-center gap-1">
                     <Calendar className="h-3 w-3" />
-                    <span>2018 - 2021</span>
+                    <span>Jun 2018 - Oct 2019</span>
                   </div>
                 </div>
               </div>
               <ul className="text-gray-700 space-y-1 ml-4">
-                <li>• Managed quality assurance for banking applications</li>
-                <li>• Implemented automated testing for mobile and web platforms</li>
-                <li>• Collaborated with development teams on quality standards</li>
+                <li>• Led testing initiatives for financial services applications</li>
+                <li>• Established automated testing infrastructure and CI/CD pipelines</li>
+                <li>• Trained and mentored quality engineers on automation best practices</li>
+                <li>• Implemented shift-left testing methodologies</li>
+              </ul>
+            </div>
+
+            <div>
+              <div className="flex justify-between items-start mb-2">
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-900">Quality Assistance Tech Lead</h4>
+                  <p className="text-gray-700 font-medium">Ansarada</p>
+                </div>
+                <div className="text-right text-sm text-gray-600">
+                  <div className="flex items-center gap-1">
+                    <Calendar className="h-3 w-3" />
+                    <span>Apr 2016 - Jun 2018</span>
+                  </div>
+                </div>
+              </div>
+              <ul className="text-gray-700 space-y-1 ml-4">
+                <li>• Provided technical leadership for QA team in a SaaS environment</li>
+                <li>• Developed test strategies for data room and M&A software products</li>
+                <li>• Implemented test automation frameworks using Selenium and JavaScript</li>
               </ul>
             </div>
 
@@ -186,14 +237,14 @@ const Resume = () => {
                 <div className="text-right text-sm text-gray-600">
                   <div className="flex items-center gap-1">
                     <Calendar className="h-3 w-3" />
-                    <span>2007 - 2018</span>
+                    <span>Jun 2009 - Oct 2011</span>
                   </div>
                 </div>
               </div>
               <ul className="text-gray-700 space-y-1 ml-4">
-                <li>• Developed enterprise software solutions</li>
-                <li>• Led technical teams in agile development environments</li>
-                <li>• Established quality engineering practices across projects</li>
+                <li>• Developed enterprise software solutions for global clients</li>
+                <li>• Implemented test-driven development practices</li>
+                <li>• Collaborated with cross-functional teams in an agile environment</li>
               </ul>
             </div>
           </div>
@@ -211,22 +262,11 @@ const Resume = () => {
 
         {/* Certifications */}
         <section className="mb-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Key Certifications</h3>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <ul className="text-gray-700 space-y-2">
-                <li>• AWS Certified Solutions Architect</li>
-                <li>• Certified Scrum Master (CSM)</li>
-                <li>• ISTQB Advanced Level Test Manager</li>
-              </ul>
-            </div>
-            <div>
-              <ul className="text-gray-700 space-y-2">
-                <li>• Microsoft Azure Fundamentals</li>
-                <li>• Selenium WebDriver Certification</li>
-                <li>• Agile Testing Certification</li>
-              </ul>
-            </div>
+          <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Certifications</h3>
+          <div>
+            <h4 className="text-lg font-semibold text-gray-900">MCPD: Enterprise Application Developer 3.5</h4>
+            <p className="text-gray-700">Microsoft</p>
+            <p className="text-sm text-gray-600">Microsoft Certified Professional Developer for Enterprise Application Development using .NET Framework 3.5</p>
           </div>
         </section>
 
