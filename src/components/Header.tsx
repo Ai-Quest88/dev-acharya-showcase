@@ -1,11 +1,12 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,11 +62,9 @@ const Header = () => {
         <Button
           variant="outline"
           className="hidden md:inline-flex border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-mono text-sm rounded-full px-6"
-          asChild
+          onClick={() => navigate('/resume')}
         >
-          <a href="/Devesh_Acharya_Resume.pdf" target="_blank" rel="noopener noreferrer">
-            Resume
-          </a>
+          Resume
         </Button>
 
         {/* Mobile Menu Button */}
@@ -106,11 +105,12 @@ const Header = () => {
           className={`mt-10 border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-mono rounded-full px-6 transform transition-all duration-300 delay-500 ${
             mobileMenuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
-          asChild
+          onClick={() => {
+            setMobileMenuOpen(false);
+            navigate('/resume');
+          }}
         >
-          <a href="/Devesh_Acharya_Resume.pdf" target="_blank" rel="noopener noreferrer">
-            Resume
-          </a>
+          Resume
         </Button>
       </div>
     </header>
