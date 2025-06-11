@@ -1,4 +1,5 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Server, Database, Cloud, TestTube, Bot } from "lucide-react";
 
@@ -61,7 +62,7 @@ const Skills = () => {
     {
       title: "Cloud & DevOps",
       icon: <Cloud size={24} />,
-      skills: ["Azure", "Azure DevOps", "AWS", "Docker", "Kubernetes", "CI/CD"]
+      skills: ["Azure", "Azure DevOps", "AWS", "AWS Lambda", "Supabase", "Docker", "Kubernetes", "CI/CD"]
     }
   ];
 
@@ -89,3 +90,4 @@ const Skills = () => {
 };
 
 export default Skills;
+
