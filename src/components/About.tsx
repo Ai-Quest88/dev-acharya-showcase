@@ -25,6 +25,13 @@ const About = () => {
                 My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
                 I'm passionate about implementing cutting-edge testing methodologies and building scalable automation frameworks.
               </p>
+
+              <p className="reveal">
+                What truly excites me about the current technological landscape is the transformative potential of AI in quality engineering. 
+                I'm actively exploring how artificial intelligence can revolutionize testing processes - from intelligent test generation and self-healing automation 
+                to predictive quality analytics and AI-powered code review. The intersection of traditional QA practices with modern AI capabilities 
+                represents the future of software quality, and I'm committed to staying at the forefront of this evolution.
+              </p>
               
               <div className="space-y-4 mt-8 reveal">
                 <h3 className="text-xl font-medium text-portfolio-lightestSlate flex items-center gap-2">
