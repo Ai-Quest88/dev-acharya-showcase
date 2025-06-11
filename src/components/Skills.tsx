@@ -35,7 +35,7 @@ const Skills = () => {
     {
       title: "Test Automation",
       icon: <TestTube size={24} />,
-      skills: ["Selenium", "Cypress", "Playwright", "Serenity", "Jest", "BDD", "API Testing", "Performance Testing"]
+      skills: ["Playwright", "Cypress", "Selenium", "Serenity", "Jest", "BDD", "API Testing", "Performance Testing"]
     },
     {
       title: "AI & Innovation",
