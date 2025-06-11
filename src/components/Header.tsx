@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -18,7 +17,7 @@ const Header = () => {
 
   const navLinks = [
     { name: 'About', href: '#about' },
-    { name: 'Certifications', href: '#certifications' },
+    { name: 'Education & Certifications', href: '#certifications' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
     { name: 'Contact', href: '#contact' }
