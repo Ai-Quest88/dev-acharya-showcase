@@ -38,7 +38,7 @@ const Hero = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
-          I build things for the web.
+          I ensure quality in everything I build.
         </h2>
         <div 
           className={`max-w-2xl transform transition-all duration-700 delay-400 ${
@@ -46,9 +46,9 @@ const Hero = () => {
           }`}
         >
           <p className="text-lg text-portfolio-slate mb-8">
-            I'm a software development professional with over 15 years of experience in
-            designing and implementing innovative solutions. Specializing in AI integration,
-            cloud architecture, and enterprise software development.
+            I'm a Senior Quality Engineer at Macquarie Group with over 14 years of experience in the technology industry. 
+            I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
+            across financial services and enterprise applications.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
