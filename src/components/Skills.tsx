@@ -40,7 +40,7 @@ const Skills = () => {
     {
       title: "AI & Innovation",
       icon: <Bot size={24} />,
-      skills: ["Playwright MCP", "Atlassian MCP", "Figma MCP", "Roo Code Agentic Test Automation using Browser-Use", "AI Test Generation", "Machine Learning", "Test Data Generation", "Smart Testing"]
+      skills: ["Playwright MCP", "Atlassian MCP", "Figma MCP", "Roo Code", "Browser-Use", "AI Test Generation", "Machine Learning", "Test Data Generation", "Smart Testing"]
     },
     {
       title: "Programming Languages",
