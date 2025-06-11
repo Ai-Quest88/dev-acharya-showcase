@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Server, Database, Cloud, TestTube } from "lucide-react";
+import { Code, Server, Database, Cloud, TestTube, Bot } from "lucide-react";
 
 interface SkillCategoryProps {
   title: string;
@@ -33,6 +33,16 @@ const SkillCategory = ({ title, skills, icon }: SkillCategoryProps) => {
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Test Automation",
+      icon: <TestTube size={24} />,
+      skills: ["Selenium", "Cypress", "Playwright", "TestNG", "Jest", "API Testing", "Performance Testing"]
+    },
+    {
+      title: "AI & Innovation",
+      icon: <Bot size={24} />,
+      skills: ["Playwright MCP", "AI Test Generation", "Machine Learning", "Test Data Generation", "Smart Testing"]
+    },
+    {
       title: "Programming Languages",
       icon: <Code size={24} />,
       skills: ["C#", "Java", "JavaScript", "TypeScript", "Python", "HTML/CSS"]
@@ -51,11 +61,6 @@ const Skills = () => {
       title: "Cloud & DevOps",
       icon: <Cloud size={24} />,
       skills: ["Azure", "Azure DevOps", "AWS", "Docker", "Kubernetes", "CI/CD"]
-    },
-    {
-      title: "Test Automation & AI",
-      icon: <TestTube size={24} />,
-      skills: ["Selenium", "Cypress", "Playwright", "Playwright MCP", "AI Test Generation", "TestNG", "Jest", "API Testing"]
     }
   ];
 
