@@ -46,7 +46,8 @@ const Hero = () => {
           <p className="text-lg text-portfolio-slate mb-8">
             I'm a Senior Quality Engineer at Macquarie Group with over 17 years of experience in the technology industry. 
             I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
-            across financial services and enterprise applications.
+            across financial services and enterprise applications. Currently exploring the exciting intersection of AI and quality engineering 
+            to revolutionize how we approach testing and software reliability.
           </p>
         </div>
       </div>
