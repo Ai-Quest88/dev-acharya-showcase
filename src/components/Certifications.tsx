@@ -31,82 +31,85 @@ const Certifications = () => {
           Education & Certifications
         </h2>
         
-        {/* Education Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-semibold text-portfolio-lightestSlate mb-6 flex items-center">
-            <GraduationCap className="text-portfolio-teal h-6 w-6 mr-2" />
-            Education
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {education.map((edu, index) => (
-              <div
-                key={index}
-                className="reveal group relative p-6 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
-              >
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                
-                <div className="relative">
-                  <div className="flex items-center mb-4">
-                    <GraduationCap className="text-portfolio-teal h-6 w-6" />
-                  </div>
+        {/* Horizontal Layout for Education and Certifications */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Education Section */}
+          <div>
+            <h3 className="text-xl font-semibold text-portfolio-lightestSlate mb-6 flex items-center">
+              <GraduationCap className="text-portfolio-teal h-6 w-6 mr-2" />
+              Education
+            </h3>
+            <div className="space-y-6">
+              {education.map((edu, index) => (
+                <div
+                  key={index}
+                  className="reveal group relative p-6 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
+                >
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
                   
-                  <h4 className="text-lg font-semibold text-portfolio-lightestSlate mb-2 group-hover:text-portfolio-teal transition-colors duration-300">
-                    {edu.degree}
-                  </h4>
-                  
-                  <p className="text-sm font-mono text-portfolio-teal mb-3">
-                    {edu.institution}
-                  </p>
-                  
-                  <p className="text-sm text-portfolio-slate leading-relaxed">
-                    {edu.duration}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Certifications Section */}
-        <div>
-          <h3 className="text-xl font-semibold text-portfolio-lightestSlate mb-6 flex items-center">
-            <Award className="text-portfolio-teal h-6 w-6 mr-2" />
-            Certifications
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {certifications.map((cert, index) => (
-              <div
-                key={index}
-                className="reveal group relative p-6 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
-              >
-                <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                
-                <div className="relative">
-                  <div className="flex items-center mb-4">
-                    <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center p-2 mr-4">
-                      <img 
-                        src={cert.logo} 
-                        alt={`${cert.issuer} logo`}
-                        className="w-full h-full object-contain"
-                      />
+                  <div className="relative">
+                    <div className="flex items-center mb-4">
+                      <GraduationCap className="text-portfolio-teal h-6 w-6" />
                     </div>
-                    <Award className="text-portfolio-teal h-6 w-6" />
+                    
+                    <h4 className="text-lg font-semibold text-portfolio-lightestSlate mb-2 group-hover:text-portfolio-teal transition-colors duration-300">
+                      {edu.degree}
+                    </h4>
+                    
+                    <p className="text-sm font-mono text-portfolio-teal mb-3">
+                      {edu.institution}
+                    </p>
+                    
+                    <p className="text-sm text-portfolio-slate leading-relaxed">
+                      {edu.duration}
+                    </p>
                   </div>
-                  
-                  <h4 className="text-lg font-semibold text-portfolio-lightestSlate mb-2 group-hover:text-portfolio-teal transition-colors duration-300">
-                    {cert.name}
-                  </h4>
-                  
-                  <p className="text-sm font-mono text-portfolio-teal mb-3">
-                    {cert.issuer}
-                  </p>
-                  
-                  <p className="text-sm text-portfolio-slate leading-relaxed">
-                    {cert.description}
-                  </p>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          {/* Certifications Section */}
+          <div>
+            <h3 className="text-xl font-semibold text-portfolio-lightestSlate mb-6 flex items-center">
+              <Award className="text-portfolio-teal h-6 w-6 mr-2" />
+              Certifications
+            </h3>
+            <div className="space-y-6">
+              {certifications.map((cert, index) => (
+                <div
+                  key={index}
+                  className="reveal group relative p-6 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
+                >
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                  
+                  <div className="relative">
+                    <div className="flex items-center mb-4">
+                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center p-2 mr-4">
+                        <img 
+                          src={cert.logo} 
+                          alt={`${cert.issuer} logo`}
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                      <Award className="text-portfolio-teal h-6 w-6" />
+                    </div>
+                    
+                    <h4 className="text-lg font-semibold text-portfolio-lightestSlate mb-2 group-hover:text-portfolio-teal transition-colors duration-300">
+                      {cert.name}
+                    </h4>
+                    
+                    <p className="text-sm font-mono text-portfolio-teal mb-3">
+                      {cert.issuer}
+                    </p>
+                    
+                    <p className="text-sm text-portfolio-slate leading-relaxed">
+                      {cert.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
