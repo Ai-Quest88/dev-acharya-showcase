@@ -64,7 +64,7 @@ const About = () => {
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-6 reveal">
-                {['Playwright', 'Cypress', 'Selenium', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', '.NET Core', 'Spring Boot', 'Node.js', 'Jest', 'TestNG', 'API Testing', 'Azure', 'AWS', 'Docker', 'CI/CD', 'SQL Server', 'PostgreSQL', 'MongoDB', 'BDD', 'Performance Testing', 'Machine Learning'].map(tech => (
+                {['Playwright', 'Cypress', 'Selenium', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', '.NET Core', 'Spring Boot', 'Node.js', 'Jest', 'TestNG', 'API Testing', 'REST Assured', 'Azure', 'AWS', 'Docker', 'CI/CD', 'SQL Server', 'PostgreSQL', 'BDD', 'Performance Testing', 'Machine Learning'].map(tech => (
                   <div key={tech} className="flex items-center group">
                     <ArrowRight className="h-4 w-4 text-portfolio-teal mr-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                     <span className="font-mono text-sm group-hover:text-portfolio-teal transition-colors duration-300">{tech}</span>
