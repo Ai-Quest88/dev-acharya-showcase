@@ -17,12 +17,12 @@ const About = () => {
           <div className="md:col-span-2 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, a Senior Quality Engineer at Macquarie Group with over 14 years of experience in the technology industry. 
+                Hello! I'm Devesh, a Senior Quality Engineer at Macquarie Group with over 17 years of experience in the technology industry. 
                 I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications.
               </p>
               
               <p className="reveal">
-                My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including IBM, Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
+                My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
                 I'm passionate about implementing cutting-edge testing methodologies and building scalable automation frameworks.
               </p>
               
