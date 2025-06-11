@@ -75,7 +75,7 @@ const Experience = () => {
     },
     {
       company: "Ansarada",
-      title: "Quality assistance Tech lead",
+      title: "Quality Assistance Tech Lead",
       period: "Apr 2016 - Jun 2018",
       location: "Sydney, Australia",
       description: [
