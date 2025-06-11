@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Code, Server, Database, Cloud, TestTube, Bot } from "lucide-react";
 
@@ -55,7 +56,7 @@ const Skills = () => {
     {
       title: "Database",
       icon: <Database size={24} />,
-      skills: ["SQL Server", "Oracle", "PostgreSQL", "MongoDB", "Redis", "Entity Framework"]
+      skills: ["SQL Server", "Oracle", "PostgreSQL", "MongoDB", "DynamoDB", "NoSQL Databases", "Entity Framework"]
     },
     {
       title: "Cloud & DevOps",
