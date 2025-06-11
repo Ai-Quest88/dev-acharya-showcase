@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -38,7 +37,7 @@ const Hero = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
-          I ensure quality in everything I build.
+          I ensure quality in everything we build.
         </h2>
         <div 
           className={`max-w-2xl transform transition-all duration-700 delay-400 ${
