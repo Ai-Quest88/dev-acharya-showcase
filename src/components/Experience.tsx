@@ -134,7 +134,7 @@ const Experience = () => {
     <section id="experience" className="py-24">
       <div className="container mx-auto px-4">
         <h2 className="section-heading mb-16">
-          <span className="text-portfolio-teal font-mono text-xl mr-2">02.</span>
+          <span className="text-portfolio-teal font-mono text-xl mr-2">03.</span>
           Where I've Worked
         </h2>
         
