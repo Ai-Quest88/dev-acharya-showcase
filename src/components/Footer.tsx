@@ -29,7 +29,7 @@ const Footer = () => {
               <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-portfolio-lightNavy py-1 px-2 rounded text-xs opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">LinkedIn</span>
             </a>
             <a 
-              href="mailto:devesh.acharya@microsoft.com" 
+              href="mailto:devesh.acharya88@gmail.com" 
               className="text-portfolio-lightSlate hover:text-portfolio-teal transform hover:-translate-y-1 transition-all relative group"
               aria-label="Email"
             >

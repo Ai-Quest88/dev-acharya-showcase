@@ -24,11 +24,19 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // This would be replaced with actual form submission logic
+    // Create mailto link with form data
+    const mailtoLink = `mailto:devesh.acharya88@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+    )}`;
+    
+    // Open email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
     setTimeout(() => {
       toast({
-        title: "Message sent successfully!",
-        description: "Thank you for your message. I'll get back to you soon.",
+        title: "Email client opened!",
+        description: "Your email client should open with the message pre-filled.",
       });
       setFormData({
         name: '',
@@ -37,7 +45,7 @@ const Contact = () => {
         message: ''
       });
       setIsSubmitting(false);
-    }, 1500);
+    }, 500);
   };
 
   return (
@@ -124,7 +132,7 @@ const Contact = () => {
               size="lg"
               disabled={isSubmitting}
             >
-              {isSubmitting ? "Sending..." : "Send Message"}
+              {isSubmitting ? "Opening Email..." : "Send Message"}
             </Button>
           </div>
         </form>
