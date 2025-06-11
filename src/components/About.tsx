@@ -17,14 +17,19 @@ const About = () => {
           <div className="md:col-span-2 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, a Senior Software Engineer at Microsoft with over 14 years of experience in the technology industry. 
-                I hold a Master's degree in Computer Applications from Pune University and have been passionate about building innovative software solutions.
+                Hello! I'm Devesh, a Senior Quality Engineer at Macquarie Group with over 14 years of experience in the technology industry. 
+                I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications.
+              </p>
+              
+              <p className="reveal">
+                My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including IBM, Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
+                I'm passionate about implementing cutting-edge testing methodologies and building scalable automation frameworks.
               </p>
               
               <div className="space-y-4 mt-8 reveal">
                 <h3 className="text-xl font-medium text-portfolio-lightestSlate flex items-center gap-2">
                   <Briefcase className="text-portfolio-teal h-5 w-5" />
-                  Professional Experience
+                  Current Role
                 </h3>
                 
                 <div className="pl-7 space-y-6">
@@ -32,48 +37,14 @@ const About = () => {
                     <div className="flex items-start">
                       <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
                       <div>
-                        <h4 className="font-medium text-portfolio-lightestSlate">Microsoft</h4>
+                        <h4 className="font-medium text-portfolio-lightestSlate">Macquarie Group</h4>
                         <p className="text-sm flex items-center gap-1">
                           <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
-                          <span>2019 - Present</span>
+                          <span>2023 - Present</span>
                         </p>
                         <p className="mt-1">
-                          Lead software development teams focusing on AI-powered enterprise solutions, 
-                          architecting cloud-based applications with emphasis on scalability and performance.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <div className="flex items-start">
-                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
-                      <div>
-                        <h4 className="font-medium text-portfolio-lightestSlate">Oracle</h4>
-                        <p className="text-sm flex items-center gap-1">
-                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
-                          <span>2014 - 2019</span>
-                        </p>
-                        <p className="mt-1">
-                          Developed enterprise-grade database solutions and cloud integration services, 
-                          working with cross-functional teams to deliver robust applications.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <div className="flex items-start">
-                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
-                      <div>
-                        <h4 className="font-medium text-portfolio-lightestSlate">IBM</h4>
-                        <p className="text-sm flex items-center gap-1">
-                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
-                          <span>2010 - 2014</span>
-                        </p>
-                        <p className="mt-1">
-                          Started career as a software developer, focused on system integration and 
-                          backend development for financial services clients.
+                          Leading quality assurance initiatives across fintech projects, implementing automated testing frameworks 
+                          for critical financial systems, and mentoring engineering teams in quality best practices.
                         </p>
                       </div>
                     </div>
@@ -82,11 +53,11 @@ const About = () => {
               </div>
 
               <p className="reveal mt-8 font-medium text-portfolio-lightestSlate">
-                Here are a few technologies I've been working with recently:
+                Here are the key technologies and tools I work with:
               </p>
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-6 reveal">
-                {['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'C#', 'Azure', 'AWS', 'AI/ML', 'Docker', 'Kubernetes'].map(tech => (
+                {['Selenium', 'Cypress', 'JavaScript', 'Python', 'Java', 'TestNG', 'Jest', 'Playwright', 'API Testing', 'CI/CD', 'Docker', 'AWS'].map(tech => (
                   <div key={tech} className="flex items-center group">
                     <ArrowRight className="h-4 w-4 text-portfolio-teal mr-2 transform transition-transform duration-300 group-hover:translate-x-1" />
                     <span className="font-mono text-sm group-hover:text-portfolio-teal transition-colors duration-300">{tech}</span>
