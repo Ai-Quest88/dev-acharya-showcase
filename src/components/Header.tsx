@@ -1,12 +1,10 @@
+
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,14 +57,6 @@ const Header = () => {
           </ul>
         </nav>
 
-        <Button
-          variant="outline"
-          className="hidden md:inline-flex border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-mono text-sm rounded-full px-6"
-          onClick={() => navigate('/resume')}
-        >
-          Resume
-        </Button>
-
         {/* Mobile Menu Button */}
         <button 
           className="md:hidden text-portfolio-teal z-50" 
@@ -100,18 +90,6 @@ const Header = () => {
             </a>
           ))}
         </nav>
-        <Button
-          variant="outline"
-          className={`mt-10 border border-portfolio-teal text-portfolio-teal hover:bg-portfolio-teal/10 font-mono rounded-full px-6 transform transition-all duration-300 delay-500 ${
-            mobileMenuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-          }`}
-          onClick={() => {
-            setMobileMenuOpen(false);
-            navigate('/resume');
-          }}
-        >
-          Resume
-        </Button>
       </div>
     </header>
   );
