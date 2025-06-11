@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Server, Database, Cloud, Layout, Terminal } from "lucide-react";
+import { Code, Server, Database, Cloud, Layout, TestTube } from "lucide-react";
 
 interface SkillCategoryProps {
   title: string;
@@ -59,9 +59,9 @@ const Skills = () => {
       skills: ["Azure", "Azure DevOps", "AWS", "Docker", "Kubernetes", "CI/CD"]
     },
     {
-      title: "AI & Machine Learning",
-      icon: <Terminal size={24} />,
-      skills: ["Azure AI", "ML.NET", "TensorFlow", "Computer Vision", "NLP", "OpenAI API"]
+      title: "Test Automation & AI",
+      icon: <TestTube size={24} />,
+      skills: ["Selenium", "Cypress", "Playwright", "Playwright MCP", "AI Test Generation", "TestNG", "Jest", "API Testing"]
     }
   ];
 
