@@ -56,7 +56,6 @@ const Contact = () => {
         </h2>
 
         <p className="text-center text-portfolio-slate mb-12 max-w-2xl mx-auto">
-          I'm currently open to new opportunities and collaborations.
           Reach me directly on any of these.
         </p>
 
