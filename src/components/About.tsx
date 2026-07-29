@@ -27,7 +27,7 @@ const About = () => {
               </p>
 
               <p className="reveal [animation-delay:300ms] [animation-fill-mode:both]">
-                Today I build with AI, not just test with it — shipping products like AIQE and FinSight using Claude Code,
+                Today I build with AI, not just test with it — shipping my own products, AIQE and FinSight, using Claude Code,
                 agentic workflows and MCP integrations. Everything I build ships with quality engineered in.
               </p>
             </div>
