@@ -22,13 +22,13 @@ const Experience = () => {
       period: "Feb 2023 - Present",
       location: "Sydney, New South Wales, Australia • Hybrid",
       description: [
-        "Currently engineering verification of the AI calculation builder workflow — validating AI-generated calculation logic for correctness and reliability",
+        "Designing the Claude Code agentic workflow and verification stages for the data calculation builder pipeline — data calculations generated via Claude Code and validated at every stage, streamlined with custom skills and the Superpowers framework",
         "AI innovation ambassador for QA — driving adoption of Claude Code (my primary AI engineering tool), GitHub Copilot, RooCode and Atlassian/Figma MCP integrations",
         "Designed and lead the end-to-end Playwright.js automation framework for the FMG data platform",
         "Integrated automated testing into CI pipelines with Bamboo and Docker; performance testing with JMeter",
         "Streamlined quality reporting and test governance through Xray and Jira"
       ],
-      technologies: ["Claude Code", "AI Verification", "Playwright", "TypeScript", "Bamboo", "Docker"]
+      technologies: ["Claude Code", "Agentic Workflows", "AI Verification", "Playwright", "TypeScript", "Docker"]
     },
     {
       company: "Commonwealth Bank",
