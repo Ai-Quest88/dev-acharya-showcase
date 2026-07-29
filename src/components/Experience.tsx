@@ -24,9 +24,10 @@ const Experience = () => {
       description: [
         "Designing the Claude Code agentic workflow and verification stages for the data calculation builder pipeline — data calculations generated via Claude Code and validated at every stage, streamlined with custom skills and the Superpowers framework",
         "AI innovation ambassador for QE — driving adoption of Claude Code (my primary AI engineering tool), GitHub Copilot, RooCode and Atlassian/Figma MCP integrations",
+        "Created custom Claude Code skills and RooModes for the quality engineering and test automation space",
+        "Built a custom test automation and release-readiness reporting dashboard, and a test harness tool to create and tear down test automation data for the platform",
         "Designed and lead the end-to-end Playwright.js automation framework for the FMG data platform",
-        "Integrated automated testing into CI pipelines with Bamboo and Docker; performance testing with JMeter",
-        "Streamlined quality reporting and test governance through Xray and Jira"
+        "Integrated automated testing into CI pipelines with Bamboo and Docker; performance testing with JMeter"
       ],
       technologies: ["Claude Code", "Agentic Workflows", "AI Verification", "Playwright", "TypeScript", "Docker"]
     },
