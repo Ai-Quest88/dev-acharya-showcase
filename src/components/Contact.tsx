@@ -52,7 +52,7 @@ const Contact = () => {
     <section id="contact" className="py-24">
       <div className="container mx-auto px-4 max-w-3xl">
         <h2 className="section-heading text-center">
-          <span className="text-portfolio-teal font-mono text-xl mr-2">05.</span>
+          <span className="text-portfolio-teal font-mono text-xl mr-2">06.</span>
           Get In Touch
         </h2>
         

@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Certifications from "@/components/Certifications";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
@@ -32,7 +33,7 @@ const Index = () => {
 
   // Update the document title
   useEffect(() => {
-    document.title = "Devesh Acharya | Quality Lead Engineer";
+    document.title = "Devesh Acharya | AI Application Engineer & Quality Lead Engineer";
   }, []);
 
   return (
@@ -44,6 +45,7 @@ const Index = () => {
         <About />
         <Certifications />
         <Experience />
+        <Projects />
         <Skills />
         <Contact />
       </main>

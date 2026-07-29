@@ -101,18 +101,19 @@ const ProjectCard = ({ title, description, techStack, github, demo, image, featu
 const Projects = () => {
   const featuredProjects = [
     {
-      title: "BulkAI",
-      description: "A comprehensive application that helps users automate file sorting and processing using AI algorithms. The tool can efficiently categorize and organize large volumes of documents based on content analysis.",
-      techStack: ["Python", "TensorFlow", "React", "Node.js", "AWS"],
-      github: "https://github.com/Ai-Quest88/BulkAI",
+      title: "AIQE — AI Quality Engineering Platform",
+      description: "An AI-powered quality engineering platform for automated test execution, requirement analysis and AI-assisted test case generation — turning plain-English requirements into executable test suites. Built AI-natively and live at aiqe.info.",
+      techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "AI Test Generation"],
+      github: "https://github.com/Ai-Quest88/aiqe-wizard.github.io",
+      demo: "https://aiqe.info",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       featured: true
     },
     {
-      title: "AIChat-LLM-RAG-App",
-      description: "An advanced chatbot application that uses Large Language Models and Retrieval-Augmented Generation to provide accurate and context-aware responses to user queries.",
-      techStack: ["Python", "LangChain", "OpenAI", "React", "Flask"],
-      github: "https://github.com/Ai-Quest88/AIChat-LLM-RAG-App",
+      title: "FinSight — AI Personal Finance",
+      description: "A personal finance platform with AI-assisted transaction categorisation and universal statement upload — import any bank's CSV and let AI parse, classify and organise transactions across entities and accounts. Built end-to-end with Claude Code on React, Supabase and Express.",
+      techStack: ["React", "TypeScript", "Supabase", "Express", "TanStack Query", "Claude Code"],
+      github: "https://github.com/Ai-Quest88/pocket-penny-wizard",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
       featured: true,
       reverse: true
@@ -121,36 +122,31 @@ const Projects = () => {
 
   const otherProjects = [
     {
-      title: "ClimateCast",
-      description: "A weather forecasting application that provides accurate predictions using data from multiple sources and machine learning algorithms.",
-      techStack: ["JavaScript", "React", "Chart.js", "Weather API", "Node.js"],
-      github: "https://github.com/Ai-Quest88/weather-app"
+      title: "Developer Portfolio (this site)",
+      description: "This portfolio is itself an AI-built product — generated with Lovable, then evolved and maintained with Claude Code, including its .claude/ workflow configuration and custom slash commands.",
+      techStack: ["React", "TypeScript", "Vite", "Lovable", "Claude Code"],
+      github: "https://github.com/Ai-Quest88/dev-acharya-showcase",
+      demo: "https://devesh.aiqe.info"
     },
     {
-      title: "AI Document Scanner",
-      description: "A mobile application that uses computer vision to scan documents and convert them to editable text with high accuracy.",
-      techStack: ["Python", "OpenCV", "TensorFlow", "Flutter", "Firebase"],
-      github: "https://github.com/Ai-Quest88/document-scanner"
+      title: "MCP Playwright (fork)",
+      description: "Fork of the Playwright Model Context Protocol server — browser and API automation for Claude Desktop, Cline and Cursor. Base for my agentic browser-automation experiments.",
+      techStack: ["TypeScript", "Playwright", "MCP", "Node.js"],
+      github: "https://github.com/Ai-Quest88/mcp-playwright"
     },
     {
-      title: "Smart Expense Tracker",
-      description: "An AI-powered financial management tool that automatically categorizes expenses and provides insights on spending habits.",
-      techStack: ["React", "Node.js", "MongoDB", "TensorFlow.js", "AWS"],
-      github: "https://github.com/Ai-Quest88/finance-tracker"
-    },
-    {
-      title: "Code Mentor AI",
-      description: "An educational platform that provides personalized coding lessons and feedback using AI to adapt to the learner's progress.",
-      techStack: ["TypeScript", "React", "Python", "Django", "PostgreSQL"],
-      github: "https://github.com/Ai-Quest88/code-mentor"
+      title: "Browser-Use Web UI (fork)",
+      description: "Fork of the browser-use web UI for running AI agents in the browser — an experimentation platform for autonomous web navigation and agentic task execution.",
+      techStack: ["Python", "browser-use", "AI Agents", "Gradio"],
+      github: "https://github.com/Ai-Quest88/web-ui"
     }
   ];
 
   return (
     <section id="projects" className="py-24 bg-portfolio-navy">
       <div className="container mx-auto px-4">
-        <h2 className="section-heading mb-16">
-          <span className="text-portfolio-teal font-mono text-xl mr-2">02.</span>
+        <h2 className="section-heading mb-32 md:mb-40">
+          <span className="text-portfolio-teal font-mono text-xl mr-2">04.</span>
           Things I've Built
         </h2>
         

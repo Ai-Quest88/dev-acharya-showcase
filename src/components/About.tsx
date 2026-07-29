@@ -27,10 +27,10 @@ const About = () => {
               </p>
 
               <p className="reveal">
-                What truly excites me about the current technological landscape is the transformative potential of AI in quality engineering. 
-                I'm actively exploring how artificial intelligence can revolutionize testing processes - from intelligent test generation and self-healing automation 
-                to predictive quality analytics and AI-powered code review. The intersection of traditional QA practices with modern AI capabilities 
-                represents the future of software quality, and I'm committed to staying at the forefront of this evolution.
+                What excites me most today is building with AI, not just testing with it. I ship AI-native products — AIQE, an AI quality
+                engineering platform, and FinSight, an AI-assisted personal finance app — using Claude Code as my primary engineering tool,
+                with agentic workflows, MCP integrations and AI test generation woven through the development process. Nearly two decades of
+                quality engineering means everything I build with AI still ships with quality engineered in.
               </p>
               
               <div className="space-y-4 mt-8 reveal">

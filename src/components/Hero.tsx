@@ -36,7 +36,7 @@ const Hero = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
-          I ensure quality in everything we build.
+          I build applications with AI — with quality engineered in.
         </h2>
         <div 
           className={`max-w-2xl transform transition-all duration-700 delay-400 ${
@@ -44,10 +44,10 @@ const Hero = () => {
           }`}
         >
           <p className="text-lg text-portfolio-slate mb-8">
-            I'm a Quality Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry.
-            I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
-            across financial services and enterprise applications. Currently exploring the exciting intersection of AI and quality engineering 
-            to revolutionize how we approach testing and software reliability.
+            I'm an AI Application Engineer and Quality Lead Engineer at Macquarie Group with over 17 years in the technology industry.
+            My career has run developer → test automation lead → AI-native builder: today I design and ship production applications
+            using Claude Code, agentic workflows and MCP integrations — backed by nearly two decades of quality engineering
+            across financial services and enterprise applications.
           </p>
         </div>
       </div>
