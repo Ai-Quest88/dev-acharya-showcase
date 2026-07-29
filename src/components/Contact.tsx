@@ -1,141 +1,70 @@
 
-import { useState } from 'react';
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
+import { Github, Linkedin, Mail } from "lucide-react";
+
+interface ContactLinkProps {
+  icon: React.ReactNode;
+  label: string;
+  handle: string;
+  href: string;
+}
+
+const ContactLink = ({ icon, label, handle, href }: ContactLinkProps) => {
+  return (
+    <a
+      href={href}
+      target={href.startsWith("mailto:") ? undefined : "_blank"}
+      rel="noopener noreferrer"
+      className="group bg-portfolio-lightNavy rounded-lg p-6 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300 border border-transparent hover:border-portfolio-teal/50"
+    >
+      <div className="text-portfolio-teal mb-4">{icon}</div>
+      <h3 className="text-lg font-semibold text-portfolio-lightestSlate mb-1 group-hover:text-portfolio-teal transition-colors duration-300">
+        {label}
+      </h3>
+      <p className="font-mono text-sm text-portfolio-slate break-all">{handle}</p>
+    </a>
+  );
+};
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Create mailto link with form data
-    const mailtoLink = `mailto:devesh.acharya88@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    )}`;
-    
-    // Open email client
-    window.location.href = mailtoLink;
-    
-    // Show success message
-    setTimeout(() => {
-      toast({
-        title: "Email client opened!",
-        description: "Your email client should open with the message pre-filled.",
-      });
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
-      setIsSubmitting(false);
-    }, 500);
-  };
+  const links: ContactLinkProps[] = [
+    {
+      icon: <Github size={32} />,
+      label: "GitHub",
+      handle: "Ai-Quest88",
+      href: "https://github.com/Ai-Quest88"
+    },
+    {
+      icon: <Linkedin size={32} />,
+      label: "LinkedIn",
+      handle: "devesh-acharya",
+      href: "https://linkedin.com/in/devesh-acharya-58925a8/"
+    },
+    {
+      icon: <Mail size={32} />,
+      label: "Email",
+      handle: "devesh.acharya88@gmail.com",
+      href: "mailto:devesh.acharya88@gmail.com"
+    }
+  ];
 
   return (
     <section id="contact" className="py-24">
-      <div className="container mx-auto px-4 max-w-3xl">
+      <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="section-heading text-center">
           <span className="text-portfolio-teal font-mono text-xl mr-2">06.</span>
           Get In Touch
         </h2>
-        
+
         <p className="text-center text-portfolio-slate mb-12 max-w-2xl mx-auto">
-          I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea,
-          or just want to say hi, feel free to reach out to me using the form below.
+          I'm currently open to new opportunities and collaborations.
+          Reach me directly on any of these — no contact forms, no middlemen.
         </p>
-        
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-portfolio-lightestSlate mb-1">
-                Name
-              </label>
-              <Input 
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                className="bg-portfolio-lightNavy border-portfolio-lightestNavy text-portfolio-lightestSlate focus-visible:ring-portfolio-teal focus-visible:ring-offset-portfolio-navy"
-                placeholder="Your name"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-portfolio-lightestSlate mb-1">
-                Email
-              </label>
-              <Input 
-                id="email"
-                name="email"
-                type="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                className="bg-portfolio-lightNavy border-portfolio-lightestNavy text-portfolio-lightestSlate focus-visible:ring-portfolio-teal focus-visible:ring-offset-portfolio-navy"
-                placeholder="your.email@example.com"
-              />
-            </div>
-          </div>
-          
-          <div>
-            <label htmlFor="subject" className="block text-sm font-medium text-portfolio-lightestSlate mb-1">
-              Subject
-            </label>
-            <Input 
-              id="subject"
-              name="subject"
-              value={formData.subject}
-              onChange={handleChange}
-              required
-              className="bg-portfolio-lightNavy border-portfolio-lightestNavy text-portfolio-lightestSlate focus-visible:ring-portfolio-teal focus-visible:ring-offset-portfolio-navy"
-              placeholder="What is this about?"
-            />
-          </div>
-          
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-portfolio-lightestSlate mb-1">
-              Message
-            </label>
-            <Textarea 
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-              rows={6}
-              className="bg-portfolio-lightNavy border-portfolio-lightestNavy text-portfolio-lightestSlate focus-visible:ring-portfolio-teal focus-visible:ring-offset-portfolio-navy resize-none"
-              placeholder="Your message here..."
-            />
-          </div>
-          
-          <div className="text-center">
-            <Button 
-              type="submit"
-              className="bg-transparent hover:bg-portfolio-teal/10 text-portfolio-teal border border-portfolio-teal px-12"
-              size="lg"
-              disabled={isSubmitting}
-            >
-              {isSubmitting ? "Opening Email..." : "Send Message"}
-            </Button>
-          </div>
-        </form>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {links.map(link => (
+            <ContactLink key={link.label} {...link} />
+          ))}
+        </div>
       </div>
     </section>
   );
