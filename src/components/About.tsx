@@ -1,5 +1,4 @@
 
-import { ArrowRight, Briefcase, Building, Calendar } from "lucide-react";
 import RobotAnimation from "./RobotAnimation";
 
 const About = () => {
@@ -32,46 +31,6 @@ const About = () => {
                 with agentic workflows, MCP integrations and AI test generation woven through the development process. Nearly two decades of
                 quality engineering means everything I build with AI still ships with quality engineered in.
               </p>
-              
-              <div className="space-y-4 mt-8 reveal">
-                <h3 className="text-xl font-medium text-portfolio-lightestSlate flex items-center gap-2">
-                  <Briefcase className="text-portfolio-teal h-5 w-5" />
-                  Current Role
-                </h3>
-                
-                <div className="pl-7 space-y-6">
-                  <div className="space-y-2">
-                    <div className="flex items-start">
-                      <Building className="text-portfolio-teal h-5 w-5 mt-0.5 mr-2 flex-shrink-0" />
-                      <div>
-                        <h4 className="font-medium text-portfolio-lightestSlate">Macquarie Group</h4>
-                        <p className="text-sm flex items-center gap-1">
-                          <Calendar className="h-3.5 w-3.5 text-portfolio-teal" />
-                          <span>2023 - Present</span>
-                        </p>
-                        <p className="mt-1">
-                          Designing Claude Code agentic workflows and verification stages for the data calculation builder pipeline,
-                          leading the Playwright automation framework for the FMG data platform, and driving AI adoption
-                          across quality engineering as QE's AI innovation ambassador.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <p className="reveal mt-8 font-medium text-portfolio-lightestSlate">
-                Here are the key technologies and tools I work with:
-              </p>
-              
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-6 reveal">
-                {['Playwright', 'Cypress', 'Selenium', 'C#', 'Java', 'JavaScript', 'TypeScript', 'Python', '.NET Core', 'Spring Boot', 'Node.js', 'Jest', 'TestNG', 'API Testing', 'REST Assured', 'Azure', 'AWS', 'Docker', 'CI/CD', 'SQL Server', 'PostgreSQL', 'BDD', 'Performance Testing', 'Machine Learning'].map(tech => (
-                  <div key={tech} className="flex items-center group">
-                    <ArrowRight className="h-4 w-4 text-portfolio-teal mr-2 transform transition-transform duration-300 group-hover:translate-x-1" />
-                    <span className="font-mono text-sm group-hover:text-portfolio-teal transition-colors duration-300">{tech}</span>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
           
