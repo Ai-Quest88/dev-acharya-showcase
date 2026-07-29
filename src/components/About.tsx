@@ -16,20 +16,18 @@ const About = () => {
           <div className="md:col-span-3 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, an AI Application Engineer and Quality Lead Engineer at Macquarie Group with over 17 years in the technology industry.
-                I build production applications with AI — with Claude Code at the centre of my workflow — on a foundation of test automation, quality engineering and technical leadership across financial services and enterprise applications.
+                I'm Devesh — an AI Application Engineer and Quality Lead Engineer at Macquarie Group.
+                Seventeen years in technology, now spent building production applications with AI on a foundation of quality engineering.
               </p>
-              
+
               <p className="reveal [animation-delay:150ms] [animation-fill-mode:both]">
-                My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
-                I'm passionate about implementing cutting-edge testing methodologies and building scalable automation frameworks.
+                My path: developer at Accenture and Siemens, then automation lead across Commonwealth Bank, Ansarada,
+                Fluent Commerce, Qantas Loyalty and Macquarie — designing test frameworks and leading engineering teams in financial services.
               </p>
 
               <p className="reveal [animation-delay:300ms] [animation-fill-mode:both]">
-                What excites me most today is building with AI, not just testing with it. I ship AI-native products — AIQE, an AI quality
-                engineering platform, and FinSight, an AI-assisted personal finance app — using Claude Code as my primary engineering tool,
-                with agentic workflows, MCP integrations and AI test generation woven through the development process. Nearly two decades of
-                quality engineering means everything I build with AI still ships with quality engineered in.
+                Today I build with AI, not just test with it — shipping products like AIQE and FinSight using Claude Code,
+                agentic workflows and MCP integrations. Everything I build ships with quality engineered in.
               </p>
             </div>
           </div>
