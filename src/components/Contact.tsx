@@ -57,7 +57,7 @@ const Contact = () => {
 
         <p className="text-center text-portfolio-slate mb-12 max-w-2xl mx-auto">
           I'm currently open to new opportunities and collaborations.
-          Reach me directly on any of these — no contact forms, no middlemen.
+          Reach me directly on any of these.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
