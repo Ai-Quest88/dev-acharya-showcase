@@ -60,7 +60,7 @@ const Experience = () => {
     },
     {
       company: "Fluent Commerce",
-      title: "Senior Quality Assurance Engineer",
+      title: "Automation Lead",
       period: "Oct 2019 - Feb 2021",
       location: "Sydney, New South Wales, Australia",
       description: [
