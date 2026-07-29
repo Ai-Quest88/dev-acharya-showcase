@@ -28,10 +28,10 @@ const RobotAnimation = () => {
       </div>
       
       {/* Main astronaut image */}
-      <div className="absolute inset-0 flex items-center justify-center animate-float">
-        <img 
-          src="/lovable-uploads/2b758864-5e34-4a57-a90d-7212f659c3aa.png" 
-          alt="Space astronaut" 
+      <div className="absolute inset-6 flex items-center justify-center animate-float">
+        <img
+          src="/lovable-uploads/astronaut-transparent.png"
+          alt="Space astronaut"
           className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(100,255,218,0.3)]"
         />
       </div>

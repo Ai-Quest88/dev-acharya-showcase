@@ -13,20 +13,20 @@ const About = () => {
           About Me
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="md:col-span-2 reveal">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12">
+          <div className="md:col-span-3 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
                 Hello! I'm Devesh, a Quality Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry.
                 I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications.
               </p>
               
-              <p className="reveal">
+              <p className="reveal [animation-delay:150ms] [animation-fill-mode:both]">
                 My journey began at Accenture where I developed enterprise software solutions, and has evolved through various leadership roles at top-tier companies including Siemens, Commonwealth Bank, Ansarada, Fluent Commerce, and now Macquarie Group. 
                 I'm passionate about implementing cutting-edge testing methodologies and building scalable automation frameworks.
               </p>
 
-              <p className="reveal">
+              <p className="reveal [animation-delay:300ms] [animation-fill-mode:both]">
                 What excites me most today is building with AI, not just testing with it. I ship AI-native products — AIQE, an AI quality
                 engineering platform, and FinSight, an AI-assisted personal finance app — using Claude Code as my primary engineering tool,
                 with agentic workflows, MCP integrations and AI test generation woven through the development process. Nearly two decades of
@@ -74,11 +74,13 @@ const About = () => {
             </div>
           </div>
           
-          <div className="relative group reveal">
-            <div className="absolute -inset-2 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto md:mx-0 bg-portfolio-navy border border-portfolio-lightNavy p-6">
-              <div className="aspect-square bg-portfolio-navy">
-                <RobotAnimation />
+          <div className="md:col-span-2 reveal">
+            <div className="relative group md:sticky md:top-28">
+              <div className="absolute -inset-2 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div className="relative rounded-lg overflow-hidden w-full max-w-md mx-auto bg-portfolio-navy border border-portfolio-lightNavy p-4">
+                <div className="aspect-square bg-portfolio-navy">
+                  <RobotAnimation />
+                </div>
               </div>
             </div>
           </div>
