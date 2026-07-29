@@ -21,8 +21,9 @@ const About = () => {
               </p>
 
               <p className="reveal [animation-delay:150ms] [animation-fill-mode:both]">
-                My path: developer at Accenture and Siemens, then automation lead across Commonwealth Bank, Ansarada,
-                Fluent Commerce, Qantas Loyalty and Macquarie — designing test frameworks and leading quality engineering teams in financial services.
+                My path: developer at big corporates like Accenture and Siemens, then automation lead at both startups — Ansarada,
+                Fluent Commerce — and major institutions like Commonwealth Bank, Qantas and Macquarie, designing test frameworks
+                and leading quality engineering teams in financial services.
               </p>
 
               <p className="reveal [animation-delay:300ms] [animation-fill-mode:both]">
