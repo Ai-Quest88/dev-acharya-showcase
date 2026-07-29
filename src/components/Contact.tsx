@@ -55,11 +55,7 @@ const Contact = () => {
           Get In Touch
         </h2>
 
-        <p className="text-center text-portfolio-slate mb-12 max-w-2xl mx-auto">
-          Reach me directly on any of these.
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
           {links.map(link => (
             <ContactLink key={link.label} {...link} />
           ))}
