@@ -137,7 +137,7 @@ const Resume = () => {
               </div>
               <ul className="text-gray-700 space-y-1 ml-4">
                 <li>• Designing the Claude Code agentic workflow and verification stages for the data calculation builder pipeline — calculations generated via Claude Code and validated at every stage, streamlined with custom skills and the Superpowers framework</li>
-                <li>• AI innovation ambassador for QA — driving adoption of Claude Code, GitHub Copilot, RooCode and MCP integrations</li>
+                <li>• AI innovation ambassador for QE — driving adoption of Claude Code, GitHub Copilot, RooCode and MCP integrations</li>
                 <li>• Designed and lead the end-to-end Playwright.js automation framework for the FMG data platform</li>
                 <li>• Integrated automated testing into CI pipelines with Bamboo and Docker; performance testing with JMeter</li>
                 <li>• Streamlined quality reporting and test governance through Xray and Jira</li>
