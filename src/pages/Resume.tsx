@@ -37,7 +37,7 @@ const Resume = () => {
         {/* Header */}
         <header className="text-center mb-8 border-b-2 border-gray-300 pb-6">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">Devesh Acharya</h1>
-          <h2 className="text-xl text-gray-600 mb-4">Senior Quality Engineer</h2>
+          <h2 className="text-xl text-gray-600 mb-4">Automation Lead Engineer</h2>
           
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
             <div className="flex items-center gap-1">
@@ -63,7 +63,7 @@ const Resume = () => {
         <section className="mb-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b border-gray-300 pb-2">Professional Summary</h3>
           <p className="text-gray-700 leading-relaxed">
-            Senior Quality Engineer at Macquarie Group with over 17 years of experience in the technology industry. 
+            Automation Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry. 
             I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions 
             across financial services and enterprise applications. Currently exploring the exciting intersection of AI and quality engineering 
             to revolutionize how we approach testing and software reliability.
@@ -121,7 +121,7 @@ const Resume = () => {
             <div>
               <div className="flex justify-between items-start mb-2">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">Senior Quality Engineer</h4>
+                  <h4 className="text-lg font-semibold text-gray-900">Automation Lead Engineer</h4>
                   <p className="text-gray-700 font-medium">Macquarie Group</p>
                 </div>
                 <div className="text-right text-sm text-gray-600">

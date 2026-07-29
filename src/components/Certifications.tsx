@@ -4,7 +4,7 @@ import { Award, GraduationCap } from "lucide-react";
 const Certifications = () => {
   const education = [
     {
-      degree: "Bachelor of Engineering (B.E.), Computer Engineering",
+      degree: "Bachelor of Engineering (B.E.), Computer Science",
       institution: "University of Rajasthan",
       duration: "2004 - 2008",
       type: "education"
@@ -17,6 +17,27 @@ const Certifications = () => {
       issuer: "Microsoft",
       logo: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
       description: "Microsoft Certified Professional Developer for Enterprise Application Development using .NET Framework 3.5",
+      type: "certification"
+    },
+    {
+      name: "Accenture Certified Solution Developer",
+      issuer: "Accenture",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Accenture.svg",
+      description: "Certified solution developer credential covering enterprise software design and delivery",
+      type: "certification"
+    },
+    {
+      name: "Siemens Certified Application Developer",
+      issuer: "Siemens",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Siemens-logo.svg",
+      description: "Application developer certification, including software engineering and design principles",
+      type: "certification"
+    },
+    {
+      name: "SumoLogic Certified Pro User",
+      issuer: "Sumo Logic",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Sumo_Logic_Logo.svg",
+      description: "Professional certification in log analytics and monitoring with Sumo Logic",
       type: "certification"
     }
   ];

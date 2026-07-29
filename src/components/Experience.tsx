@@ -18,22 +18,22 @@ const Experience = () => {
   const jobs: Job[] = [
     {
       company: "Macquarie Group",
-      title: "Senior Quality Engineer",
-      period: "Jan 2023 - Present",
+      title: "Automation Lead Engineer",
+      period: "Feb 2023 - Present",
       location: "Sydney, New South Wales, Australia • Hybrid",
       description: [
-        "Leading quality assurance initiatives across fintech projects",
-        "Implementing automated testing frameworks for critical financial systems",
-        "Collaborating with cross-functional teams to ensure product quality",
-        "Developing quality metrics and reporting mechanisms",
-        "Mentoring junior engineers in quality best practices"
+        "Designed and lead the end-to-end Playwright.js automation framework for the FMG data platform",
+        "Integrated automated testing into CI pipelines with Bamboo and Docker; performance testing with JMeter",
+        "AI innovation ambassador for QA — driving adoption of Claude Code, GitHub Copilot, RooCode and Atlassian/Figma MCP integrations",
+        "Streamlined quality reporting and test governance through Xray and Jira",
+        "Mentoring engineers in automation and quality best practices"
       ],
-      technologies: ["Selenium", "Cypress", "Jest", "Python", "CI/CD", "AWS"]
+      technologies: ["Playwright", "TypeScript", "JMeter", "Bamboo", "Docker", "Claude Code"]
     },
     {
       company: "Commonwealth Bank",
       title: "Automation Test Lead",
-      period: "Mar 2022 - Jan 2023",
+      period: "Mar 2022 - Feb 2023",
       location: "Sydney, New South Wales, Australia",
       description: [
         "Led test automation strategy for banking applications",
@@ -45,9 +45,22 @@ const Experience = () => {
       technologies: ["TestNG", "Selenium", "JavaScript", "Java", "Docker", "Jenkins"]
     },
     {
+      company: "Qantas Loyalty",
+      title: "Senior Automation Engineer",
+      period: "Mar 2021 - Feb 2022",
+      location: "Sydney, New South Wales, Australia",
+      description: [
+        "Created Cypress and TestCafe UI test suites for loyalty platform services",
+        "Built a Karate BDD API testing framework for backend services",
+        "Developed Jenkins pipelines for regression and smoke testing",
+        "Collaborated with delivery teams in an agile environment"
+      ],
+      technologies: ["Cypress", "TestCafe", "Karate BDD", "Jenkins", "JavaScript"]
+    },
+    {
       company: "Fluent Commerce",
       title: "Senior Quality Assurance Engineer",
-      period: "Oct 2019 - Feb 2022",
+      period: "Oct 2019 - Feb 2021",
       location: "Sydney, New South Wales, Australia",
       description: [
         "Developed and maintained test automation frameworks for e-commerce platforms",
@@ -75,7 +88,7 @@ const Experience = () => {
     {
       company: "Ansarada",
       title: "Quality Assistance Tech Lead",
-      period: "Apr 2016 - Jun 2018",
+      period: "Mar 2016 - Jun 2018",
       location: "Sydney, Australia",
       description: [
         "Provided technical leadership for QA team in a SaaS environment",
@@ -103,7 +116,7 @@ const Experience = () => {
     {
       company: "Siemens Technology India",
       title: "Associate Consultant",
-      period: "Nov 2011 - Apr 2015",
+      period: "Nov 2011 - Mar 2015",
       location: "Bengaluru Area, India",
       description: [
         "Provided consulting services for enterprise software implementations",
