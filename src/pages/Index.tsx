@@ -32,7 +32,7 @@ const Index = () => {
 
   // Update the document title
   useEffect(() => {
-    document.title = "Devesh Acharya | Automation Lead Engineer";
+    document.title = "Devesh Acharya | Quality Lead Engineer";
   }, []);
 
   return (

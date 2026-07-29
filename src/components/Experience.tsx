@@ -18,7 +18,7 @@ const Experience = () => {
   const jobs: Job[] = [
     {
       company: "Macquarie Group",
-      title: "Automation Lead Engineer",
+      title: "Quality Lead Engineer",
       period: "Feb 2023 - Present",
       location: "Sydney, New South Wales, Australia • Hybrid",
       description: [

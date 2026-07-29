@@ -17,7 +17,7 @@ const About = () => {
           <div className="md:col-span-2 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, an Automation Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry.
+                Hello! I'm Devesh, a Quality Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry.
                 I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications.
               </p>
               
