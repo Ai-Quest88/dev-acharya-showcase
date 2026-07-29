@@ -17,8 +17,8 @@ const About = () => {
           <div className="md:col-span-3 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                Hello! I'm Devesh, a Quality Lead Engineer at Macquarie Group with over 17 years of experience in the technology industry.
-                I specialize in quality assurance, test automation, and leading technical teams to deliver robust software solutions across financial services and enterprise applications.
+                Hello! I'm Devesh, an AI Application Engineer and Quality Lead Engineer at Macquarie Group with over 17 years in the technology industry.
+                I build production applications with AI — with Claude Code at the centre of my workflow — on a foundation of test automation, quality engineering and technical leadership across financial services and enterprise applications.
               </p>
               
               <p className="reveal [animation-delay:150ms] [animation-fill-mode:both]">
@@ -50,8 +50,9 @@ const About = () => {
                           <span>2023 - Present</span>
                         </p>
                         <p className="mt-1">
-                          Leading quality assurance initiatives across fintech projects, implementing automated testing frameworks 
-                          for critical financial systems, and mentoring engineering teams in quality best practices.
+                          Designing Claude Code agentic workflows and verification stages for the data calculation builder pipeline,
+                          leading the Playwright automation framework for the FMG data platform, and driving AI adoption
+                          across quality engineering as QE's AI innovation ambassador.
                         </p>
                       </div>
                     </div>
