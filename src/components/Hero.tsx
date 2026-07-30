@@ -32,7 +32,7 @@ const Hero = () => {
           Devesh Acharya.
         </h1>
         <h2 
-          className={`text-4xl md:text-5xl lg:text-7xl font-bold text-portfolio-slate mb-8 transform transition-all duration-700 delay-300 ${
+          className={`text-3xl md:text-5xl lg:text-7xl font-bold text-portfolio-slate mb-8 transform transition-all duration-700 delay-300 ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
@@ -43,7 +43,7 @@ const Hero = () => {
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
-          <p className="text-lg text-portfolio-slate mb-8">
+          <p className="text-lg text-portfolio-slate mb-16 sm:mb-8">
             I'm an AI Application Engineer and Quality Lead Engineer at Macquarie Group with over 17 years in the technology industry.
             My career has run developer → test automation lead → AI-native builder: today I design and ship production applications
             using Claude Code, agentic workflows and MCP integrations — backed by nearly two decades of quality engineering

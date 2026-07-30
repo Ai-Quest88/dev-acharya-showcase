@@ -79,7 +79,7 @@ const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className={`text-portfolio-lightSlate hover:text-portfolio-teal transition-colors duration-300 text-xl font-mono transform ${
+              className={`text-portfolio-lightSlate hover:text-portfolio-teal transition-colors duration-300 text-xl font-mono transform text-center max-w-[85vw] ${
                 mobileMenuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}

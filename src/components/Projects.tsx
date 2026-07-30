@@ -145,7 +145,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 bg-portfolio-navy">
       <div className="container mx-auto px-4">
-        <h2 className="section-heading mb-32 md:mb-40">
+        <h2 className="section-heading mb-16 md:mb-40">
           <span className="text-portfolio-teal font-mono text-xl mr-2">04.</span>
           Things I've Built
         </h2>
