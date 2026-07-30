@@ -96,37 +96,31 @@ const Certifications = () => {
               <Award className="text-portfolio-teal h-6 w-6 mr-2" />
               Certifications
             </h3>
-            <div className="space-y-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {certifications.map((cert, index) => (
                 <div
                   key={index}
-                  className="reveal group relative p-6 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
+                  className="reveal group relative p-4 rounded-lg border border-portfolio-lightNavy bg-portfolio-lightNavy/30 hover:bg-portfolio-lightNavy/50 transition-all duration-300"
                 >
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-teal/20 to-purple-500/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                  
+
                   <div className="relative">
-                    <div className="flex items-center mb-4">
-                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center p-2 mr-4">
-                        <img 
-                          src={cert.logo} 
+                    <div className="flex items-center mb-3">
+                      <div className="w-9 h-9 bg-white rounded-lg flex items-center justify-center p-1.5 mr-3 flex-shrink-0">
+                        <img
+                          src={cert.logo}
                           alt={`${cert.issuer} logo`}
                           className="w-full h-full object-contain"
                         />
                       </div>
-                      <Award className="text-portfolio-teal h-6 w-6" />
+                      <p className="text-xs font-mono text-portfolio-teal">
+                        {cert.issuer}
+                      </p>
                     </div>
-                    
-                    <h4 className="text-lg font-semibold text-portfolio-lightestSlate mb-2 group-hover:text-portfolio-teal transition-colors duration-300">
+
+                    <h4 className="text-sm font-semibold text-portfolio-lightestSlate leading-snug group-hover:text-portfolio-teal transition-colors duration-300">
                       {cert.name}
                     </h4>
-                    
-                    <p className="text-sm font-mono text-portfolio-teal mb-3">
-                      {cert.issuer}
-                    </p>
-                    
-                    <p className="text-sm text-portfolio-slate leading-relaxed">
-                      {cert.description}
-                    </p>
                   </div>
                 </div>
               ))}
