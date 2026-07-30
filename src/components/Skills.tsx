@@ -70,7 +70,7 @@ const Skills = () => {
     <section id="skills" className="py-24 bg-portfolio-navy">
       <div className="container mx-auto px-4">
         <h2 className="section-heading mb-12">
-          <span className="text-portfolio-teal font-mono text-xl mr-2">05.</span>
+          <span className="text-portfolio-teal font-mono text-xl mr-2">04.</span>
           Key Technologies and Tools
         </h2>
         
