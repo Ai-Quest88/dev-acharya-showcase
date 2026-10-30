@@ -16,7 +16,7 @@ const About = () => {
           <div className="md:col-span-3 reveal">
             <div className="space-y-6 text-lg">
               <p className="reveal">
-                I'm Devesh — an AI Application Engineer and Quality Lead Engineer at Macquarie Group.
+                I'm Devesh — an AI Application Engineer and Director of Quality Engineering at Eftsure.
                 Seventeen years in technology, now spent building production applications with AI on a foundation of quality engineering.
               </p>
 

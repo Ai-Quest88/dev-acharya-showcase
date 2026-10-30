@@ -17,9 +17,19 @@ const Experience = () => {
   
   const jobs: Job[] = [
     {
+      company: "Eftsure",
+      title: "Director of Quality Engineering",
+      period: "Oct 2026 - Present",
+      location: "Sydney, New South Wales, Australia • Hybrid",
+      description: [
+        "Leading quality engineering at Eftsure"
+      ],
+      technologies: ["Quality Engineering", "Leadership"]
+    },
+    {
       company: "Macquarie Group",
       title: "Quality Lead Engineer",
-      period: "Feb 2023 - Present",
+      period: "Feb 2023 - Oct 2026",
       location: "Sydney, New South Wales, Australia • Hybrid",
       description: [
         "Designing the Claude Code agentic workflow and verification stages for the data calculation builder pipeline — data calculations generated via Claude Code and validated at every stage, streamlined with custom skills and the Superpowers framework",

@@ -44,7 +44,7 @@ const Hero = () => {
           }`}
         >
           <p className="text-lg text-portfolio-slate mb-16 sm:mb-8">
-            I'm an AI Application Engineer and Quality Lead Engineer at Macquarie Group with over 17 years in the technology industry.
+            I'm an AI Application Engineer and Director of Quality Engineering at Eftsure with over 17 years in the technology industry.
             My career has run developer → test automation lead → AI-native builder: today I design and ship production applications
             using Claude Code, agentic workflows and MCP integrations — backed by nearly two decades of quality engineering
             across financial services and enterprise applications.
