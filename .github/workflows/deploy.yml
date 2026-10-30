@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build app
+        run: npm run build
+
+      # Tolerates a no-op release (content already live from a manual deploy).
+      - name: Deploy to Firebase Hosting
+        run: |
+          cat > /tmp/firebase-sa.json <<'JSON'
+          ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          JSON
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-sa.json
+          set +e
+          OUTPUT=$(npx firebase-tools deploy --only hosting:devesh-aiqe --project finsight-dd601 --non-interactive 2>&1)
+          CODE=$?
+          echo "$OUTPUT"
+          if [ $CODE -ne 0 ] && echo "$OUTPUT" | grep -q "is the current active version"; then
+            echo "Built content is already the active release — nothing to deploy."
+            exit 0
+          fi
+          exit $CODE

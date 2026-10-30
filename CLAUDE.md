@@ -1,6 +1,6 @@
 # dev-acharya-showcase
 
-Personal portfolio for Devesh Acharya — AI Application Engineer & Director of Quality Engineering. Live at https://devesh.aiqe.info (Lovable hosting, custom domain; GitHub pushes sync to Lovable, production deploy requires Publish in the Lovable editor).
+Personal portfolio for Devesh Acharya — AI Application Engineer & Director of Quality Engineering. Live at https://devesh.aiqe.info (Firebase Hosting site `devesh-aiqe` in GCP project `finsight-dd601`, default URL https://devesh-aiqe.web.app). Every push to `main` deploys via `.github/workflows/deploy.yml`, using the hosting-only service account `github-portfolio-deploy` (repo secret `FIREBASE_SERVICE_ACCOUNT`). Lovable is no longer the host.
 
 ## Stack
 
